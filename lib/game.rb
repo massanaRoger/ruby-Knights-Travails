@@ -10,5 +10,6 @@ end
 
 game = Game.new
 graph = Graph.new
-graph.put_knight(0, 0)
-graph.BFS([1, 1])
+p graph.BFS([0,0],[1,2])
+p graph.BFS([0,0],[3,3])
+p graph.BFS([3,3],[0,0])
